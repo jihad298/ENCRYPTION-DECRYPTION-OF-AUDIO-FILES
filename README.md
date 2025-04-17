@@ -4,13 +4,13 @@ Basically, the audio is taken as an input and is encoded to be decoded by authen
 The algorithm used to perform this cryptography is Advanced Encryption Standards (AES) algorithm in Python.
 
 ### Workflow:
- Prompts the user to select an action: encryption (E) or decryption (D).
- Guides the user to choose an audio file through select_audio_file() (functionality assumed to be implemented elsewhere).
- Validates the presence of a selected file before proceeding.
- Requests the user to provide an AES key.
- Based on the chosen action:
- Encrypts the selected file using encrypt_audio().
- Decrypts the selected file using decrypt_audio().
+Prompts the user to select an action: encryption (E) or decryption (D).
+Guides the user to choose an audio file through select_audio_file() (functionality assumed to be implemented elsewhere).
+Validates the presence of a selected file before proceeding.
+Requests the user to provide an AES key.
+Based on the chosen action:
+Encrypts the selected file using encrypt_audio().
+Decrypts the selected file using decrypt_audio().
  
  ### Validation:
  Ensures a valid input for the action.
